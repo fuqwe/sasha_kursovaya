@@ -1,0 +1,274 @@
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+html.js .loader .loader_inner {
+  background-image: url("../img/preloader.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: 350px;
+}
+
+header p {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  position: relative;
+}
+
+header img {
+  display: block;
+  min-width: 1366px;
+  height: 350px;
+  position: absolute;
+}
+
+.main-content {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.main-card {
+  background-image: url("../img/main-card/mu.png");
+  width: 90%;
+  height: 500px;
+  margin: 15px auto;
+  display: block;
+}
+
+.info-card {
+  display: block;
+  margin: 10px 10px;
+  font-size: 15px;
+  position: relative;
+  top: 60%;
+  color: #fff;
+}
+
+.name-card {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  color: #fff;
+}
+
+.button-info {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  top: 130px;
+}
+
+.button-info img {
+  width: 200px;
+  height: 200px;
+}
+
+#club-info {
+  width: 770px;
+  height: 500px;
+  background-image: url(../img/field.png);
+  background-size: 770px;
+  position: relative;
+}
+
+.head {
+  width: 100%;
+  height: 60px;
+  background-color: #FFF;
+}
+
+.head p {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.replace {
+  width: 68%;
+  height: 80px;
+  background-color: rgba(231, 231, 231, 0.6);
+  position: absolute;
+  top: 416px;
+  left: 50%;
+  margin-left: -34%;
+}
+
+.card-2, .card-3, .card-4, .card-5 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 55%;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.card-2 {
+  left: 10%;
+  background-image: url(../img/players-mu/shaw.png);
+}
+
+.card-3 {
+  left: 34%;
+  background-image: url(../img/players-mu/blind.png);
+}
+
+.card-4 {
+  left: 60%;
+  background-image: url(../img/players-mu/smalling.png);
+}
+
+.card-5 {
+  left: 82%;
+  background-image: url(../img/players-mu/darmian.png);
+}
+
+.card-6, .card-7, .card-8, .card-9 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 35%;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.card-6 {
+  left: 10%;
+  background-image: url(../img/players-mu/depay.png);
+}
+
+.card-7 {
+  left: 34%;
+  background-image: url(../img/players-mu/herrera.png);
+}
+
+.card-8 {
+  left: 60%;
+  background-image: url(../img/players-mu/carrick.png);
+}
+
+.card-9 {
+  left: 82%;
+  background-image: url(../img/players-mu/mata.png);
+}
+
+.card-10, .card-11 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 17%;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.card-10 {
+  left: 34%;
+  background-image: url(../img/players-mu/rooney.png);
+}
+
+.card-11 {
+  left: 60%;
+  background-image: url(../img/players-mu/martial.png);
+}
+
+.card-12, .card-13, .card-14, .card-15, .card-16 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 10px 20px;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.card-12 {
+  left: -1%;
+  background-image: url(../img/players-mu/jones.png);
+}
+
+.card-13 {
+  left: 20%;
+  background-image: url(../img/players-mu/fellaini.png);
+}
+
+.card-14 {
+  left: 41%;
+  background-image: url(../img/players-mu/lingard.png);
+}
+
+.card-15 {
+  left: 62%;
+  background-image: url(../img/players-mu/young.png);
+}
+
+.card-16 {
+  left: 82%;
+  background-image: url(../img/players-mu/bastian.png);
+}
+
+.card-player {
+  padding: 37px 0 0 0;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
+  opacity: 0;
+  -webkit-margin-before: 0;
+}
+
+.card-player:hover {
+  opacity: 1;
+}
