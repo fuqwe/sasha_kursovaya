@@ -77,7 +77,7 @@ header img {
 }
 
 .main-card {
-  background-image: url("../img/main-card/mu.png");
+  background-image: url("../img/main-card/chel.png");
   width: 90%;
   height: 500px;
   margin: 15px auto;
@@ -135,13 +135,13 @@ header img {
 }
 
 .formation {
-  width: 200px;
+  width: 290px;
   height: 40px;
   position: relative;
   top: -39px;
 }
 
-.first, .second {
+.first, .second, .third {
   width: 90px;
   height: 31px;
   display: inline-block;
@@ -150,7 +150,7 @@ header img {
   border-radius: 8px;
 }
 
-.first p, .second p {
+.first p, .second p, .third p {
   display: block;
   text-align: center;
   margin: 0;
@@ -158,17 +158,17 @@ header img {
   font-weight: bold;
 }
 
-.first:hover, .second:hover {
+.first:hover, .second:hover, .third:hover {
   background-color: #a9e4bf;
   cursor: pointer;
 }
 
-.first:hover p, .second:hover p {
+.first:hover p, .second:hover p, .third:hover p {
   color: #fff;
 }
 
-.first {
-  margin-right: 15px;
+.first, .second {
+  margin-right: 5px;
 }
 
 .replace {
@@ -184,7 +184,7 @@ header img {
 .card-1 {
   width: 60px;
   height: 60px;
-  background-image: url(../img/players-mu/de-gea.png);
+  background-image: url(../img/players-chel/cour.png);
   position: absolute;
   top: 70%;
   left: 51%;
@@ -228,7 +228,7 @@ header img {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: 35%;
+  top: 42%;
   border: 1px solid #f5f5f5;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
@@ -250,27 +250,34 @@ header img {
 }
 
 .card-9 {
-  left: 71%;
-  background-image: url(../img/players-mu/mata.png);
-}
-
-.card-9, .card-10, .card-11 {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: 16%;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  top: 26%;
+  left: 48%;
+  background-image: url(../img/players-mu/mata.png);
+}
+
+.card-10, .card-11 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 14%;
   border: 1px solid #f5f5f5;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 .card-10 {
-  left: 48%;
+  left: 61%;
   background-image: url(../img/players-mu/rooney.png);
 }
 
 .card-11 {
-  left: 23%;
+  left: 35%;
   background-image: url(../img/players-mu/martial.png);
 }
 
