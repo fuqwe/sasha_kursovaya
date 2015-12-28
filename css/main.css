@@ -134,6 +134,43 @@ header img {
   text-align: center;
 }
 
+.formation {
+  width: 200px;
+  height: 40px;
+  position: relative;
+  top: -39px;
+}
+
+.first, .second {
+  width: 90px;
+  height: 31px;
+  display: inline-block;
+  background-color: #FFF;
+  border: 3px solid #a9e4bf;
+  border-radius: 8px;
+}
+
+.first p, .second p {
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.first:hover, .second:hover {
+  background-color: #a9e4bf;
+  cursor: pointer;
+}
+
+.first:hover p, .second:hover p {
+  color: #fff;
+}
+
+.first {
+  margin-right: 15px;
+}
+
 .replace {
   width: 68%;
   height: 80px;
